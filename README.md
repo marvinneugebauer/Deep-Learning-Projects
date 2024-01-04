@@ -4,6 +4,6 @@ Overview of some of my deep learning projects in recent time.
 
 # Description of the Projects
 
-- **Project: Degrees**
-    +  For two sets of CSV data files, where each file contains the same names, and the same structure, we’re interested in finding the shortest path between any two actors by choosing a sequence of movies that connects them. Therefore we are using the **breadth-first search algorithm** in ``degrees.py ``.
-- **Project: Tictactoe**
+- **Project: Adding Machine**
+    +  In this project, we build a feedforward neural network (FFN) capable of adding two integers between -10 and 10. To ensure the consistency of our results, we conduct an experiment by constructing the same model architecture ten times and evaluating the obtained results.. The file that contains the code is ``adding_machine.ipynb``.
+
