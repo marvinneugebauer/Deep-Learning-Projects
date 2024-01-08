@@ -1,5 +1,5 @@
 # Deep-Learning-Projects
-Overview of some of my deep learning projects in recent time.
+Overview of some recent deep learning projects, all implemented in **PyTorch**.
 
 
 # Description of the Projects
