@@ -23,5 +23,7 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
  
 ## Projects on Autoencoders
 
++  In this project, our goal is to create a deep learning model with an autoencoder architecture. Additionally, we conduct a parametric experiment to answer the question: What is the optimal combination of encoding/decoding units and latent units within a specified range, aiming for minimal loss? After conducting the experiment, we visualize and evaluate the obtained results.
+
 ## Projects on Convolutional Neural Networks
   
