@@ -33,6 +33,6 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
 - **Project: CIFAR-autoencoder**
   + In this project, we construct a Convolutional Neural Network (CNN)-based autoencoder to encode images from the CIFAR-10 dataset. The name of the code file is `CIFAR_Autoencoder.ipynb`.
 - **Project: Classification on the Fashion-MNIST dataset**
-  + In this project, we construct a Convolutional Neural Network (CNN) to classify the Fashion-MNIST dataset into its ten different fashion categories. After constructing the CNN, we evaluate and plot the obtained results. The name of the code file is `CIFAR_Autoencoder.ipynb`.
+  + In this project, we construct a Convolutional Neural Network (CNN) to classify the Fashion-MNIST dataset into its ten different fashion categories. After constructing the CNN, we evaluate and plot the obtained results. The name of the code file is `classification_FashionMNIST.ipynb`.
 
   
