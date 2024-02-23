@@ -38,6 +38,11 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
   + To achieve this goal, we build a CNN model and train it on 1x30x30 images of Gaussian noise plus random vertical or horizontal lines (see the picture below). We then evaluate and plot our results.
 <br/><br/>
 ![](images/guassians_with_horizontal_vertical_lines.png)
+<br/><br/>
+  + In a further step, we explore our previously trained model by subjecting it to new images. These images, of shape 1x30x30, differ from the training images because they have not only horizontal and vertical lines but also lines with a slope ranging from -30 to 30 (see the picture below). Next, we evaluate what is the predicted outcome on those images and plot again our results.
+<br/><br/>
+
+
 
 
   
