@@ -43,7 +43,8 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
 <br/><br/>
 
 ![](images/lines_with_different_slopes.png)
-
+<br/><br/>
+ The name of the code file is `psychometric_functions_in_CNNs.ipynb`.
 
 
 
