@@ -27,11 +27,11 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
   +  In this project, our goal is to create a deep learning model with an autoencoder architecture. Additionally, we conduct a parametric experiment to answer the question: What is the optimal combination of encoding/decoding units and latent units within a specified range, aiming for minimal loss? After conducting the experiment, we visualize and evaluate the obtained results. The file that contains the code is ``how_many_units.ipynb``.
 
 ## Projects on Convolutional Neural Networks
-- **Project: Autoencoder on occcluded Gaussians**
+- **Project: Autoencoder on Occcluded Gaussians**
   +  In this project, we build an CNN based autoencoder capable of removing occlusions on Gaussians. To achieve our goal, we create two datasets consisting of images of a two-dimensional Gaussian distribution. The images in both datasets are almost the same but differ in one single aspect. In one dataset, we artificially introduce occlusions consisting of random bars, whereas in the other dataset, the images remain in their original state without introducing occlusions. Next, we construct a CNN autoencoder with an architecture designed to remove occlusions on Gaussians. Finally, we evaluate and visualize the results obtained from our model. The file that contains the code is ``AEs_on_occluded_Gaussians.ipynb``.
-- **Project: CIFAR-autoencoder**
+- **Project: CIFAR-Autoencoder**
   + In this project, we construct a Convolutional Neural Network (CNN)-based autoencoder to encode images from the CIFAR-10 dataset. The name of the code file is `CIFAR_Autoencoder.ipynb`.
-- **Project: Classification on the Fashion-MNIST dataset**
+- **Project: Classification on the Fashion-MNIST Dataset**
   + In this project, we construct a Convolutional Neural Network (CNN) to classify the Fashion-MNIST dataset into its ten different fashion categories. After constructing the CNN, we evaluate and plot the obtained results. The name of the code file is `classification_FashionMNIST.ipynb`.
 - **Project: Psychometric Functions in CNNs**
   + In this project, we are building a CNN that is able to simulate a psychometric function. A psychometric function maps the decision probability in binary classification studies when the stimuli are continuous. Specifically, we aim to simulate a psychometric function capable of deciding whether a given image contains a vertical or horizontal line.
