@@ -41,7 +41,7 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
 <br/><br/>
   + In a further step, we explore our previously trained model by subjecting it to new images. These images, of shape 1x30x30, differ from the training images because they have not only horizontal and vertical lines but also lines with a slope ranging from -30 to 30 (see the picture below). Next, we evaluate what is the predicted outcome on those images and plot again our results. The name of the code file is `psychometric_functions_in_CNNs.ipynb`.
 <br/><br/>
-![](images/lines_with_different_slopes.png)
+![alt text](https://github.com/marvinneugebauer/Deep-Learning-Projects/blob/main/images/lines_with%20_different_slopes.png)
 
 
 
