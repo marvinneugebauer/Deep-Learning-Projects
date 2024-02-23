@@ -37,6 +37,7 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
   + In this project, we are building a CNN that is able to simulate a psychometric function. A psychometric function maps the decision probability in binary classification studies when the stimuli are continuous. Specifically, we aim to simulate a psychometric function capable of deciding whether a given image contains a vertical or horizontal line.
   + To achieve this goal, we build a CNN model and train it on 1x30x30 images of Gaussian noise plus random vertical or horizontal lines (see the picture below). We then evaluate and plot our results.
 <br/><br/>
+![](images/guassians_with_horizontal_vertical_lines.png)
 
 
   
