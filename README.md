@@ -34,7 +34,10 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
 - **Project: Classification on the Fashion-MNIST dataset**
   + In this project, we construct a Convolutional Neural Network (CNN) to classify the Fashion-MNIST dataset into its ten different fashion categories. After constructing the CNN, we evaluate and plot the obtained results. The name of the code file is `classification_FashionMNIST.ipynb`.
 - **Project: Psychometric functions in CNNs**
-  + In this project, we construct a Convolutional Neural Network (CNN) to classify the Fashion-MNIST dataset into its ten different fashion categories. After constructing the CNN, we evaluate and plot the obtained results. The name of the code file is `classification_FashionMNIST.ipynb`.
+  + In this project, we are building a CNN that is able to simulate a psychometric function. A psychometric function maps the decision probability in binary classification studies when the stimuli are continuous. Specifically, we aim to simulate a psychometric function capable of deciding whether a given image contains a vertical or horizontal line.
+
+To achieve this goal, we build a CNN model and train it on 1x30x30 images of Gaussian noise plus random vertical or horizontal lines (see the picture below). We then evaluate and plot our results.
+<br/><br/>
 
 
   
