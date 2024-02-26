@@ -43,6 +43,8 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
 <br/><br/>
 ![alt text](https://github.com/marvinneugebauer/Deep-Learning-Projects/blob/main/images/lines_with%20_different_slopes.png)
 
+## Projects on Transfer Learning
+
 
 
 
