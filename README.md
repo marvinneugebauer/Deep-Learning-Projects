@@ -46,7 +46,7 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
 ## Projects on Transfer Learning
 - **Project: Transfer Learning - Letters to Numbers**
   + In this project, we aim to apply the concept of transfer learning using a CNN classification model designed for classifying images from the EMNIST dataset (achieving an accuracy above 90%). We reuse this model to classify images from the MNIST dataset, breaking down the approach into four steps.
-  - Step 1: We first assess the performance of the source model on the FMNIST dataset.
+    - Step 1: We first assess the performance of the source model on the FMNIST dataset.
   +  Step 2: Next, we apply the unchanged source model to the MNIST dataset and evaluate the results.
   +  Step 3: Then, we modify the output layer of our source model from 26 to 10 units, where 26 represents the number of different labels in the EMNIST dataset, and 10 is the number of labels in the MNIST dataset. We evaluate the performance of this modified source model.
   +  Step 4: In the final step, we create an untrained new model instance of the modified source model, referred to as the target model. We assign the weights of the trained but unchanged source model to the target model. Moreover, we subject it to a special kind of training, where we freeze the weights of all layers except the output layer. Subsequently, we assess the performance of the target model.
