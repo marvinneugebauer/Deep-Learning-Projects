@@ -44,7 +44,7 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
 ![alt text](https://github.com/marvinneugebauer/Deep-Learning-Projects/blob/main/images/lines_with%20_different_slopes.png)
 
 ## Projects on Transfer Learning
-- **Project: Psychometric Functions in CNNs**
+- **Project: Transfer Learning - Letters to Numbers**
   + In this project, we aim to apply the concept of transfer learning using a CNN classification model designed for classifying images from the EMNIST dataset (achieving an accuracy above 90%). We reuse this model to classify images from the MNIST dataset, breaking down the approach into four steps.
   + Step 1: We first assess the performance of the source model on the FMNIST dataset.
     Step 2: Next, we apply the unchanged source model to the MNIST dataset and evaluate the results.
