@@ -50,7 +50,7 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
     - __Step 2__: Next, we apply the unchanged source model to the MNIST dataset and evaluate the results.
     - __Step 3__: Then, we modify the output layer of our source model from 26 to 10 units, where 26 represents the number of different labels in the EMNIST dataset, and 10 is the number of labels in the MNIST dataset. We evaluate the performance of this modified source model.
     - __Step 4__: In the final step, we create an untrained new model instance of the modified source model, referred to as the target model. We assign the weights of the trained but unchanged source model to the target model. Moreover, we subject it to a special kind of training, where we freeze the weights of all layers except the output layer. Subsequently, we assess the performance of the target model.
-  + The name of the code file is `psychometric_functions_in_CNNs.ipynb`.
+  + The name of the code file is `letters_to_numbers.ipynb`.
 
 
 
