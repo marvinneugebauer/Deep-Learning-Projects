@@ -52,7 +52,7 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
     - __Step 4__: In the final step, we create an untrained new model instance of the modified source model, referred to as the target model. We assign the weights of the trained but unchanged source model to the target model. Moreover, we subject it to a special kind of training, where we freeze the weights of all layers except the output layer. Subsequently, we assess the performance of the target model.
   + The name of the code file is `letters_to_numbers.ipynb`.
 - **Project - Transfer learning with VGG-16 net**
-  + In this project, our goal is to perform transfer learning using the VGG-16 net. Specifically, we leverage the VGG-16 net, initially trained on images belonging to 1000 classes, for predictions on the STL-10 dataset, which consists of images with only 10 different classes. To achieve this, we need to change the output layer from originally 1000 units to 10 units. After these adaptations, we evaluate our results by plotting them.
+  + In this project, our goal is to perform transfer learning using the VGG-16 net. Specifically, we leverage the VGG-16 net, initially trained on images belonging to 1000 classes, for predictions on the STL-10 dataset, which consists of images with only 10 different classes. To achieve this, we need to change the output layer from originally 1000 units to 10 units. After these adaptations, we evaluate our results by plotting them. The file that contains the code is ``VGG-16.ipynb``.
 
 
   
