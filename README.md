@@ -55,6 +55,6 @@ Overview of some recent deep learning projects, all implemented in **PyTorch**.
   + In this project, our goal is to perform transfer learning using the VGG-16 net. Specifically, we leverage the VGG-16 net, initially trained on images belonging to 1000 classes, for predictions on the STL-10 dataset, which consists of images with only 10 different classes. To achieve this, we need to change the output layer from originally 1000 units to 10 units. After these adaptations, we evaluate our results by plotting them. The file that contains the code is ``VGG-16.ipynb``.
 ## Projects on Style Transfer
 - **Project: Style Transfer with AlexNe**
-  + In this project, we aim to apply the concept of transfer learning
+  + In this project, we apply the style transfer algorithm. Therefore, we choose both a content image and a style image and display the outcome for our target image in a graphical plot. The name of the code file is `style_transfer_with_AlexNet.ipynb`.
 
   
